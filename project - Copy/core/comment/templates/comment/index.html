@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+<div data-tilt class="thumbnail rounded js-tilt">
+    <img
+      alt="Project Image"
+      class="img-fluid"
+      src="assets/skateboard.jpg"
+      onnclick="enlargeImg()"
+      id="img1"
+    />
+  </div>
+{% block title %}{% endblock %}
+
+{% block content %}
+Welcome
+
+<div data-tilt class="thumbnail rounded js-tilt">
+    <img
+      alt="Project Image"
+      class="img-fluid"
+      src="media\photos\fig_1_methodolgy.png"
+      onnclick="enlargeImg()"
+      id="img1"
+    />
+  </div>
+{% endblock %}
